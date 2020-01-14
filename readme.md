@@ -6,3 +6,6 @@
     <!-- 相對路徑: ./picture/IMG_3653.JPG --> 
 
     連結使用方式<a href=“https://www.facebook.com/a0300cow” target=“_black”>臉書刪到只剩會見面的９９個人</a>
+
+      <ol><li>這是列點第一條</li>
+          <li>這是列點第二條</li></ol>
