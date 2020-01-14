@@ -1,0 +1,40 @@
+/*#background {
+  
+}
+*/
+#container {
+  z-index: 2;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.fit-window {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+#background {
+  background-size: cover;
+  z-index: 1;
+  /*filter: grayscale(70%);*/
+
+  background-image:url('../Saigon/picture/IMG_3653.JPG');
+}
+
+#background:after {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+
+  background-color: #f8c0c877; 
+  /*顏色＋透明度*/
+
+}

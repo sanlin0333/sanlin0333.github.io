@@ -1,0 +1,26 @@
+p{margin-top: 30px}
+      div {margin: 20px;padding: 20px;   /* max-width: 150px;*/
+        border: solid 5px;;
+        border-radius: 10px;
+        border-width: 0px /*讓框線沒有*/
+        /*box-sizing: border-box;*/
+      }
+      img {display: block;}
+
+      .title {font-weight: 800;font-size: 18px;}
+    
+      p:hover,a:hover {background-color: #F6BDD1; 
+      }
+
+      div:active {background-color: #F6BDD1;
+      }
+
+      /*body {
+        background-image:url('../Saigon/picture/IMG_3653.JPG');
+        background-size: cover; filter: grayscale(70%)；width: 100vw; height:100vh; overflow: scroll;margin: 0; padding: 0;border: 0;
+      }*/
+
+      /*所有id都要＃開頭*/
+      /*<!-- 以下皆是固定背景圖＆邊框效果 -->*/
+      #container{width: 100vw; height:100vh; overflow-y: scroll;margin: 0; padding: 0;border: 0;}
+      #headname{text-align:center;color: #D3F8E2; text-shadow: 2px 2px 2px #F6BDD1} 

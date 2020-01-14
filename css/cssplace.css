@@ -1,0 +1,50 @@
+    /*
+    .container {
+      z-index: 2;
+      overflow-y: scroll;
+    }
+    .fit-window {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      padding: 0;
+      margin: 0;
+      top: 0;
+      left: 0;
+    }
+    .background {
+      background-image: url('./Saigon/picture/IMG_3653.JPG');
+      background-size: cover;
+      z-index: 1;
+      filter: grayscale(70%);
+    }
+
+    .tmp {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      border: solid 4px #f38551;
+    }
+*/
+    /*以下是老師寫的*/
+
+    /*#background {
+      background-image: url('./Saigon/picture/IMG_3653.JPG');
+      background-size: cover;
+      z-index: 1;
+      filter: grayscale(70%);
+    }
+    #container {
+      z-index: 2;
+      overflow-y: scroll;
+    }
+
+  div.fit-window {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+  }*/

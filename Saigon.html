@@ -1,103 +1,116 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-   	  p{margin-top: 30px}
-      div {margin: 20px;padding: 20px;   /* max-width: 150px;*/
-        border: solid 5px;;
-        border-radius: 10px;
-        border-width: 0px /*讓框線沒有*/
-      }
-      img {display: block;}
-      .title {font-weight: 800;font-size: 18px;}
-    
-      p:hover,a:hover {background-color: #F6BDD1; 
-      }
-
-      div:active {background-color: #F6BDD1;
-      }
-
-    </style>
+    <link rel=stylesheet type="text/css" href="./css/reset.css">
     <link rel=stylesheet type="text/css" href="./css/fourdiv.css">
+    <link rel=stylesheet type="text/css" href="./css/main.css">
+    <link rel=stylesheet type="text/css" href="./css/background.css">
   </head>
-  <!-- 以上忽視 -->
 
-    <!-- #ECD9AD （RGB+透明度） -->
-    <!-- 0-99 A-F 十六位數  -->
+  <body>   
 
-    <!-- 絕對路徑: file:///Users/apple/Desktop/CSS+html/picture/IMG_3653.JPG -->
-    <!-- 相對路徑: ./picture/IMG_3653.JPG -->
+  <div id="background" class="fit-window"></div>
+  <div id="container"  class="fit-window">
+    <div id="headname">
+      <h1>SAIGON</H1>
+      <H3>A place I dont't want to go Anymore.</H3>
+      <p>西貢是一個非常好的地方，也許有一天我會想他。2019的某一天，我決定將西貢獻給我的26歲。2020一月〇三日，獻給我的工程師初體驗。我將與西貢告別！我告訴西貢：「其實我不是真的那麼討厭你。」「只是我的被害妄想症讓我遠離了你。」也許海關手中的那杯如現在字體一般的青綠色奶昔，和初嚐蛋咖啡的味道我會忘記，可是我想，我在這裡將銘記著你，我的西貢，MY SAIGON。</p>
+    </div>
+
+    <div id="Massage" class="fourdiv">
+      <img src="./Saigon/picture/IMG_7067.JPG">
+      <div>
+        <h3>Massage</h3>
+        <p>越南的按摩均價在300-500元/一小時，依照部位按摩不盡相同，以下大推店家為日本老闆在胡志明開設的按摩店。</p>
+        <li>miumiu1</li>
+        <li>miumiu3</li>
+        <li>miumiu5</li>
+      </div>
+    </div>
+
+    <div id="Restaurant" class="fourdiv">
+      <img src="./Saigon/picture/IMG_3780.jpg"> 
+      <div>
+        <h3>Restaurant</h3>
+        <p>這邊是小字這邊是小字這邊是小字</p>
+        <li>媽媽的廚房</li>
+        <li>餐廳2</li>
+        <li>餐廳3</li>
+      </div>
+    </div>
+
+    <div id="CoffeeShop" class="fourdiv">
+      <img src="./Saigon/picture/IMG_3801.JPG"> 
+      <div>
+        <h3>Coffee Shop</h3>
+        <p>這邊是小字這邊是小字這邊是小字</p>
+      </div>
+    </div>
+
+    <div id="MyFavorite" class="fourdiv">
+      <img src="./Saigon/picture/IMG_3754.JPG"> 
+      <div>
+        <h3>My Favorite</h3>
+        <p>這邊是小字這邊是小字這邊是小字</p>
+      </div>
+    </div>
+  
+    <div style="clear:both;"></div> <!--這是用來清除上方的浮動效果 -->
 
 
-  <body  style="background-image:url('./Saigon/picture/IMG_3653.JPG');background-size: cover;width: 100vw; height:100vh; overflow: scroll;margin: 0; padding: 0;border: 0;">   
- <!-- 這是背景圖片 --> <!-- 備註的用法 : command + /  -->
+    <!-- 以下為其他區塊 -->
 
-    <div style="width: 100vw; height:100vh; overflow-y: scroll;margin: 0; padding: 0;border: 0;">
-
-<!-- 以上皆是固定背景圖＆邊框效果 -->
-<!-- 以下開始涉及排版內容 -->
-
-    <div style="text-align:center;color: #D3F8E2; text-shadow: 2px 2px 2px #F6BDD1";><h1>SAIGON</H1><H3>A place I dont't want to go Anymore.</H3><p>西貢是一個非常好的地方，也許有一天我會想他。2019的某一天，我決定將西貢獻給我的26歲。2020一月〇三日，獻給我的工程師初體驗。我將與西貢告別！我告訴西貢：「其實我不是真的那麼討厭你。」「只是我的被害妄想症讓我遠離了你。」也許海關手中的那杯如現在字體一般的青綠色奶昔，和初嚐蛋咖啡的味道我會忘記，可是我想，我在這裡將銘記著你，我的西貢，MY SAIGON。</p></div>  <!-- 標題及SLOGAN＆引文 -->
-
-<!-- 以下做四個div區塊 -->
-
-
-  <div id="DIV1"><img src="./Saigon/picture/IMG_7067.JPG" style="width:240px;height:150px;"> 
-    <h3>Massage<h3>
-
-      <div style="font-size :14px"><p>這邊是小字這邊是小字這邊是小字</p><li>媽媽的廚房<li>miumiu3<li>miumiu5</li></div>
-
-      <!-- 這邊要問 文字框 與文字變小 -->
-
+    <div style="text-align:center;color: #D3F8E2; text-shadow: 2px 2px 2px #F6BDD1;background-image:url('./Saigon/picture/IMG_3765.JPG');background-size: cover;">
+      <h1>GOODBYE Saigon!  再見了 西貢</h1>
       </div>
 
-<div id="DIV2"><img src="./Saigon/picture/IMG_3780.jpg" style="width:240px;height:150px;"> 
-    <h3>Restaurant<h3>
-
-
-      <div style="font-size :14px"><p>這邊是小字這邊是小字這邊是小字</p><li>媽媽的廚房<li>餐廳2<li>餐廳3</li></div>
-
-      </div>
-<div id="DIV3"><img src="./Saigon/picture/IMG_3801.JPG" style="width:240px;height:150px;"> 
-    <h3>Coffee Shop</h3>
-
-
-      <div style="font-size :14px"><p>這邊是小字這邊是小字這邊是小字</p></div>
-
-      </div>
-<div id="DIV4"><img src="./Saigon/picture/IMG_3754.JPG" style="width:240px;height:150px;"> 
-    <h3>My Favorite</h3>
-
-      <div style="font-size :14px"><p>這邊是小字這邊是小字這邊是小字</p></div>
-
+    <div style="text-align:center;color: #D3F8E2; text-shadow: 2px 2px 2px #F6BDD1">
+      <h1>以下先不要</h1>
       </div>
 
-<div style="clear:both;"></div> <!--這是用來清除上方的浮動效果-->
+    <!-- 以下youtube -->
+
+    <div id="youtube" class="youtubetwodiv">
+
+      <div style="background-color: #00A6A688"; class=video-container>
+          <iframe width="875" height="492" src="https://www.youtube.com/embed/qtbGn8umY4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+         
+      <div id="youtubeword" class="youtubetwodiv">
+
+      <h3>2019.12.20 圓夢戰地記者日</h3>
+          <p>胡志明市區 福隆咖啡晚上9:00</p>
+          <p>和J坐在咖啡店的窗台上，然後說這是今天生日的圓夢計畫，專門看胡志明的車流動。
+          J說：「快去啊！戰地記者。走下去你就是戰地記者了。」
+          <br>拿出手機，拍攝胡志明的交通亂象。然後我們一起為這段影片下了無數個＃</br> 
+            <br>＃重新定義交通
+            <br>＃胡志明日常
+            <br>＃監視器形同虛設
+            <br>＃不用畫線
+            <br>＃車子好無辜
+            <br>＃求最佳生存右轉曲線
+            <br>＃沒有車禍
+            <br>＃日本友人已崩潰
+            <br>＃想拍到車禍為止結果沒有
+            <br>＃紅燈蠢蠢欲動
+            <br>＃紅燈右轉吃到飽
+            <br>＃檢舉魔人月入百萬
+            <br>＃同一時間檢舉人數＞10 </br></div>
+
+      <div style="clear:both;"></div> 
 
 
-<!-- 以下為其他區塊 -->
-
-    <div style="text-align:center;color: #D3F8E2; text-shadow: 2px 2px 2px #F6BDD1"><h1>GOODBYE Saigon!  再見了 西貢</h1></div>
-
-    <div style="text-align:center;color: #D3F8E2; text-shadow: 2px 2px 2px #F6BDD1"><h1>以下先不要</h1></div>
-
-
-<!-- 以下先不要 -->
-
-    <div style="background-color: #8AFFC188" ><span class="title">待辦事項：</span>
-      <ol><li>嵌入GOOGLE地圖<li>YOUTUBE影片<li>等待學習JS中，彈彈彈的各種功能<li><a href=“https://www.facebook.com/a0300cow” target=“_black”>臉書刪到只剩會見面的９９個人</a> </ol></li></div>
-
-	 <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
-   <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
-   <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
-   <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
-   <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
-   <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
 
 
 
-   </div>
 
+
+    <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
+    <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
+    <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
+    <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
+    <div style="background-color: #00A6A688" ><p><span class="title"></span><p></p> <p></p></div>
+
+  </div>
 
   </body>
 </html>
